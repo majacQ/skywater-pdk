@@ -34,7 +34,7 @@ All sections are **lower case** and separated by an **underscore**. The sections
   +--------------------------------+---------------------------------------+
   | Digital Standard Cells         | :lib_type:`sc`                        |
   +--------------------------------+---------------------------------------+
-  | Build Space (Flash, SRAM, etc) | :lib_type:`sp`                        |
+  | Build Space (Flash, SRAM, etc) | :lib_type:`bd`                        |
   +--------------------------------+---------------------------------------+
   | IO and Periphery               | :lib_type:`io`                        |
   +--------------------------------+---------------------------------------+
@@ -146,3 +146,8 @@ The SKY130 currently offers two :lib_type:`build space` libraries. Build space l
 
     libraries/sky130_ef_io/README
 
+.. toctree::
+    :maxdepth: 1
+    :name: Cells in libraries cross-index
+
+    cell-index
